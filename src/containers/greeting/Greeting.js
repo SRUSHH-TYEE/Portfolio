@@ -2,8 +2,8 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import landingPerson from "../../assets/lottie/landingPerson";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
@@ -43,8 +43,10 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./SrushtiN_Resume.pdf")}
+                    // download="SrushtiN_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
