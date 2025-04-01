@@ -19,7 +19,7 @@
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
-  "scripts": {
+ "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
